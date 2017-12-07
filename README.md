@@ -6,8 +6,8 @@ This is a simple podcast player that remembers where/if it was playing across we
 
 Either pull this repository from git:
 
-git clone 
+git clone https://git.letsmakeit.com/eric/perma-pod-player.git
 
-Or download the zip file and extract the contents.
+Or just hit the download button, select as zip, then extract the folder.
 
 Now just open podplayer.html in your browser and hack away!
