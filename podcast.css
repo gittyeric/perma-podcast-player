@@ -1,0 +1,64 @@
+#podplayer{
+    margin: 2px 0 0 10px;
+    background: #333333;
+    color: #ccc;
+    float: left;
+    width: 40%;
+    max-width: 200px;
+    padding: 1px 4px 3px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+#podplayer td{
+    width: 100%;
+}
+
+#podplayer td.btn{
+    width: 25px;
+}
+
+#podplayer button{
+    height: 22px;
+    padding: 0 12px;
+    border-radius: 3px;
+    border: 0px;
+    line-height: 0;
+}
+
+#podplayer button.play{
+    background: #444 url('playback.png') no-repeat;
+    background-position: 7px 4px;
+}
+
+#podplayer button.pause{
+    background: #444 url('playback.png') no-repeat;
+    background-position: 6px -21px;
+}
+
+#podplayer .pname{
+    cursor: pointer;
+    padding: 3px 0 0 6px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#podplayer .pname{
+    text-align: left;
+}
+
+#podplayer .slider{
+    display: none;
+    cursor: pointer;
+    width: 95%;
+    margin: 7px auto 0;
+    background: #ccc;
+    height: 11px;
+    padding: 0;
+}
+
+#podplayer .slider div{
+    width: 0%;
+    height: 100%;
+    background: #fe0049;
+}
